@@ -36,7 +36,7 @@ nav {
 
 /* Pag Principal Introduccion*/
 .introduccion {
-  background-image: url("/Images/prueba.jpeg");
+  background-image: url("Images/prueba.jpeg");
   background-size: cover;
   background-position: center;
   image-rendering: auto;
