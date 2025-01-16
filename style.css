@@ -6,7 +6,36 @@ body {
   font-family: "Roboto";
   background-color: #f0e789;
 }
-
+/*botones flotantes de redes sociales*/
+.botonFlotante{
+  position: fixed;
+  width: 4.5em;
+  height: 4.5em;
+  line-height: 3em;
+  bottom: 1.5em;
+  right: 1em;
+  background-color: green;
+  color: black;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: row;
+  z-index: 3;
+  border: 3px solid white;
+  transition: .3s;
+}
+.botonFlotante:hover{
+ transition: .3s;
+ width: 5em;
+ height: 5em;
+}
+.IconoEstandar{
+  height: 3em;
+  width: 3.5em;
+  color: white;
+}
 /* Barra de navegacion */
 nav {
   height: auto;
