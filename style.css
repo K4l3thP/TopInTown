@@ -65,7 +65,7 @@ nav {
 
 /* Pag Principal Introduccion*/
 .introduccion {
-  background-image: url("Images/Introduccion.jpeg");
+  background-image: url("Images/introduccion.jpeg");
   background-size: cover;
   background-position: center;
   image-rendering: auto;
@@ -111,19 +111,16 @@ nav {
   padding-top: .5em;
   padding-bottom: .3em;
   color: rgba(0, 0, 0, 0.678);
-  
 }
 .carousel-item img {
   width: 300px; /* Ajusta el ancho a 300px */
   height: 200px; /* Ajusta la altura a 200px */
   object-fit: cover; /* Asegura que la imagen se recorte para ajustarse */
 }
-
 .carousel {
   box-shadow: 1px 5px 18px 0px rgba(0, 0, 0, 0.8);
   margin-bottom: 1.5em;
 }
-
 /* Añadir margen superior al contenido después del navbar */
 .main-content {
   margin-top: 70px; /* Ajusta según sea necesario */
