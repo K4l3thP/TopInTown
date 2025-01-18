@@ -65,7 +65,7 @@ nav {
 
 /* Pag Principal Introduccion*/
 .introduccion {
-  background-image: url("Images/prueba.jpeg");
+  background-image: url("Images/Introduccion.jpeg");
   background-size: cover;
   background-position: center;
   image-rendering: auto;
@@ -77,17 +77,22 @@ nav {
   box-shadow: 1px 5px 18px 0px rgba(0, 0, 0, 0.45);
 }
 .text-container {
-  background-color: rgba(0, 0, 0, 0.678);
+  background-color: rgba(0, 0, 0, 0.30);
   width: 100%;
   height: 100%;
   background-size: cover;
   padding: 1.3em;
+  font-weight: 500;
 }
 .introduccion h1 {
-  font-size: 3em;
+  font-size: 2.5em;
+  
 }
 .introduccion p {
   font-size: 1.3em;
+
+  padding: .5em;
+  border-radius: 15px;
 }
 .box {
   display: flex;
