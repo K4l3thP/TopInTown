@@ -7,14 +7,33 @@ body {
   background-color: #f0e789;
 }
 /*botones flotantes de redes sociales*/
-.botonFlotante{
+.botonWhatsApp{
   position: fixed;
   width: 4.5em;
   height: 4.5em;
   line-height: 3em;
-  bottom: 1.5em;
+  bottom: .5em;
   right: 1em;
   background-color: green;
+  color: black;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: row;
+  z-index: 3;
+  border: 3px solid white;
+  transition: .3s;
+}
+.botonFacebook{
+  position: fixed;
+  width: 4.5em;
+  height: 4.5em;
+  line-height: 3em;
+  bottom: 5.3em;
+  right: 1em;
+  background-color: rgb(0, 60, 128);
   color: black;
   border-radius: 50%;
   text-align: center;
@@ -36,6 +55,7 @@ body {
   width: 3.5em;
   color: white;
 }
+/*-FIN-*/
 /* Barra de navegacion */
 nav {
   height: auto;
@@ -86,13 +106,18 @@ nav {
 }
 .introduccion h1 {
   font-size: 2.5em;
-  
 }
 .introduccion p {
   font-size: 1.3em;
-
   padding: .5em;
   border-radius: 15px;
+}
+.boxTextFondant{
+margin: 1em 0;
+padding: .5em;
+border-radius: 5px;
+background-color: white;
+box-shadow: 1px 5px 5px 0px rgba(80, 80, 80, 0.404);
 }
 .tipoProductosBox{
   text-align: center;
@@ -117,21 +142,22 @@ nav {
   padding-top: .5em;
   padding-bottom: .5em;
   color: rgba(0, 0, 0, 0.753);
+  border: 2px solid rgba(17, 17, 17, 0.932);
+  border-top: none;
   background-color: rgba(235, 129, 245, 0.486);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  box-shadow: 1px 5px 18px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 5px 5px 0px rgba(80, 80, 80, 0.404);
 }
 .carousel-item img {
-  width: 100%;/* Ajusta el ancho a 300px */
-  height: 25em; /* Ajusta la altura a 200px */
-  object-fit: fill; /* Asegura que la imagen se recorte para ajustarse */
+  width: 100%;
+  height: 25em;
+  object-fit: fill; 
 }
 .carousel {
   box-shadow: 1px 5px 18px 0px rgba(0, 0, 0, 0.8);
   margin-bottom: 1.5em;
 }
-/* Añadir margen superior al contenido después del navbar */
 .main-content {
-  margin-top: 70px; /* Ajusta según sea necesario */
+  margin-top: 70px; 
 }
