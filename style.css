@@ -194,7 +194,7 @@ hr{
 .textoContactenos{
   margin-bottom: 1em;
 }
-.Contactanos h2,p{
+.Contactanos h2, .Contactanos p {
   color: white;
 }
 .Contactanos button{
