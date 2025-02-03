@@ -202,9 +202,9 @@ hr{
   height: 3em;
   margin-bottom: .7em;
   transition: 1s;
-  font-weight: 800;
+  font-weight: 5700;
   background-color: #e694e6;
-  color: white;
+  color: rgb(0, 0, 0);
   border: white 2px solid;
 }
 .Contactanos button:hover{
