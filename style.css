@@ -183,7 +183,7 @@ hr{
 .Contactanos{
   background-color: rgb(63, 50, 63);
   margin-bottom: 1.6em;
-  box-shadow: 1px 5px 18px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.8);
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -194,8 +194,14 @@ hr{
 .textoContactenos{
   margin-bottom: 1em;
 }
-.Contactanos h2, .Contactanos p {
+.Contactanos h2{
   color: white;
+  font-size: 2.5em;
+} 
+.Contactanos p {
+  color: white;
+  font-size: 1em;
+  
 }
 .Contactanos button{
   width: 15em;
